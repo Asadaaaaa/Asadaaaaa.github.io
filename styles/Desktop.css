@@ -1,0 +1,85 @@
+@media only screen and (min-width: 576px) {
+
+  main > aside > .Bio {
+    width: 500px;
+  }
+
+  main > aside > .SocialMedia > .Items > #github {
+    text-decoration: none;
+    font-size: 23px;
+  
+    color: white;
+  }
+  
+  main > aside > .SocialMedia > .Items > #instagram {
+    text-decoration: none;
+  
+    font-size: 23px;
+    background: -webkit-linear-gradient(#f9ed32, #ee2a7b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    margin-top: 1px;
+  }
+  
+  main > aside > .SocialMedia > .Items > #linkedin {
+    text-decoration: none;
+    font-size: 23px;
+  
+    color: #0077B5;
+  }
+
+  main > .Portfolio > .ListItems > .Container {
+    width: 400px;
+    height: 80px;
+  
+    display: flex;
+  
+    gap: 15px;
+  
+    border: solid #505558 3px;
+    border-radius: 30px;
+
+    cursor: pointer;
+  
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  main > .Portfolio > .ListItems > .Container > #logo {
+    width: 60px;
+    height: fit-content;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+  }
+  
+  main > .Portfolio > .ListItems > .Container > .Details {
+    width: fit-content;
+    height: fit-content;
+  
+    display: block;
+  
+    margin: 0;
+  }
+  
+  main > .Portfolio > .ListItems > .Container > .Details > #title {
+    color: #e8ecef;
+  
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  main > .Portfolio > .ListItems > .Container > .Details > #description {
+    color: #e8ecef;
+  
+    font-size: 12px;
+    margin: 0;
+    margin-top: 5px;
+  }
+}
