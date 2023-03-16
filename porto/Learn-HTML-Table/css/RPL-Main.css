@@ -1,0 +1,95 @@
+body {
+    background-color: #373737;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container {
+    margin: auto;
+    width: 1000px;
+}
+
+.Title {
+    float: left;
+}
+
+.Title #RPL-Icon {
+    float: left;
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Title #Title-Text {
+    display: inline-block;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.Navbar-Btn {
+    margin-left: 315px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+#Info-Btn {
+    width: 23px;
+    margin-left: 150px;
+}
+
+#Subject-Btn {
+    width: 23px;
+    padding-left: 25px;
+}
+
+#Subject-Btn:hover {
+    content: url("../img/Book-Hover.png");
+}
+
+#Home-Btn {
+    width: 23px;
+    float: right;
+    padding-right: 20px;
+}
+
+#Home-Btn:hover {
+    content: url("../img/Home-Hover.png");
+}
+
+#Selected-Line {
+    width: 20px;
+    margin-left: 152px;
+    padding-top: 3px;
+    border-bottom: 2px #e85b14 solid;
+}
+
+.About {
+    clear: both;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Lexend Deca;
+}
+
+.About #Title {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.About #About-Buttom-Line {
+    width: 250px;
+    margin: auto;
+    border-bottom: 2px #e85b14 solid;
+}
+
+.About .Content {
+    color: #b3b5b7;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+}

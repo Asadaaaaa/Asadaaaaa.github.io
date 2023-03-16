@@ -1,0 +1,190 @@
+@media screen and (min-width: 992px) {
+  .Section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #202021;
+  }
+
+  .Section-1 > .Content {
+    width: fit-content;
+    height: fit-content;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 35px;
+  }
+
+  .Section-1 > .Content > #Title {
+    color: white;
+    margin: 0;
+    
+    font-size: 25px;
+    font-weight: 600;
+
+    text-align: center;
+  }
+
+  .Section-1 > .Content > .LoginBox {
+    background-color: #171719;
+    border-radius: 10px;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin-top: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Username {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Username > #text {
+    color: white;
+    
+    width: fit-content;
+
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Username > #input {
+    color: white;
+    background-color: transparent;
+    
+    margin-top: 10px;
+    width: 300px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    appearance: none;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Email {
+    width: fit-content;
+    height: fit-content;
+
+    margin-top: 20px;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Email > #text {
+    color: white;
+    
+    width: fit-content;
+
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Email > #input {
+    color: white;
+    background-color: transparent;
+    
+    margin-top: 10px;
+    width: 300px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    appearance: none;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Password {
+    width: fit-content;
+    height: fit-content;
+
+    margin-top: 20px;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Password > #text {
+    color: white;
+    
+    width: fit-content;
+
+    margin: 0;
+
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Password > #input {
+    color: white;
+    background-color: transparent;
+    
+    margin-top: 10px;
+    width: 300px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+    appearance: none;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Login {
+    background-color: white;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 50px;
+
+    font-weight: 600;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Login > #text {
+    margin: 0;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Register {
+    width: fit-content;
+    height: fit-content;
+    
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Register > #text {
+    color: white;
+    font-size: 13px;
+  }
+
+  .Section-1 > .Content > .LoginBox > .Register > #text > #linkLogin {
+    color: rgb(184, 184, 199);
+  }
+}

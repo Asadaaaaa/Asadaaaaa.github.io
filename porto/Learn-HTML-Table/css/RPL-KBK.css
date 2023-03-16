@@ -1,0 +1,114 @@
+body {
+    background-color: #373737;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container {
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 100px;
+}
+
+.Title {
+    float: left;
+}
+
+.Title #RPL-Icon {
+    float: left;
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Title #Title-Text {
+    display: inline-block;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.Navbar-Btn {
+    margin-left: 315px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+#Info-Btn {
+    width: 23px;
+    margin-left: 150px;
+}
+
+#Info-Btn:hover {
+    content: url("../img/Info-Hover.png");
+}
+
+#Subject-Btn {
+    width: 23px;
+    padding-left: 25px;
+}
+
+#Home-Btn {
+    width: 23px;
+    float: right;
+    padding-right: 20px;
+}
+
+#Home-Btn:hover {
+    content: url("../img/Home-Hover.png");
+}
+
+#Selected-Line {
+    width: 20px;
+    margin-left: 204px;
+    padding-top: 3px;
+    border-bottom: 2px #e85b14 solid;
+}
+
+.Content {
+    clear: both;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Lexend Deca;
+}
+
+#Icon {
+    width: 100px;
+    padding-top: 80px;
+    padding-left: 370px;
+    margin-bottom: 10px;
+}
+
+#Buttom-Line {
+    width: 250px;
+    margin: auto;
+    border-bottom: 2px #e85b14 solid;
+}
+
+.Content .Text {
+    color: #b3b5b7;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.Table {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+table, th, td {
+    border:0.5px #b3b5b7 solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    font-family: Lexend Deca;
+    color: #b3b5b7;
+}

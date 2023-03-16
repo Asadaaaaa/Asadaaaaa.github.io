@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fast-An</title>
+  <link rel="icon" type="image/png" href="img/Fast-An.png">
+
+  <link rel="stylesheet" href="styles/Global.style.css">
+  <link rel="stylesheet" href="styles/LandingPage.style.css">
+</head>
+<body>
+  <header>
+    <div class="Title">
+      <img id="image" src="img/Fast-An.png" alt="=">
+      <h1 id="text">Fast-An</h1>
+    </div>
+  </header>
+
+  <div class="Section-1">
+    <div class="Content">
+      <div class="Detail">
+        <div class="Desc">
+          <h2>Simplicity at its best: Register and start chatting in seconds!</h2>
+        </div>
+        <div class="Button">
+          <div id="Register">
+            <p>Try It Now !</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Illustration">
+        <img id="image" src="img/illus-1.svg" alt="illustration 1">
+      </div>
+    </div>
+  </div>
+
+  <div class="Section-2">
+    <div class="Content">
+      <div class="Illustration">
+        <img id="image" src="img/illus-2.svg" alt="illustration 1">
+      </div>
+
+      <div class="Detail">
+        <div class="Desc">
+          <h2>Quick Chat for those who don't have time for small talk</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Section-3">
+    <div class="Content">
+      <div class="Detail">
+        <div class="Desc">
+          <h2>Chat with peace of mind: Fast-an ensures your data is always secure.</h2>
+        </div>
+      </div>
+
+      <div class="Illustration">
+        <img id="image" src="img/illus-3.svg" alt="illustration 1">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const registerBtn = document.getElementById('Register');
+
+    registerBtn.addEventListener('click', () => {
+      window.location.href = './register.html'
+    })
+  </script>
+</body>
+</html>

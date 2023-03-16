@@ -1,0 +1,155 @@
+
+@media screen and (min-width: 992px) {
+
+  /*===== Section 1 =====*/
+  .Section-1 {
+    height: fit-content;
+    width: 100%;
+  
+    background-color: #202021;
+    
+    padding-bottom: 90px;
+  }
+  
+  .Section-1 > .Content {
+    display: flex;
+  }
+  
+  .Section-1 > .Content > .Detail {
+    width: fit-content;
+    height: fit-content;
+  
+    margin-top: auto;
+    margin-bottom: auto;
+  
+    margin-left: 95px;
+    margin-right: auto;
+  }
+  
+  .Section-1 > .Content > .Detail > .Desc {
+    width: 40vw;
+  
+    color: white;
+  
+    font-size: 20px;
+  }
+  
+  .Section-1 > .Content > .Detail > .Button {
+    border: white solid;
+    border-radius: 100px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: white;
+
+    width: fit-content;
+    height: fit-content;
+
+    color: black;
+    cursor: pointer;
+
+    transition: 300ms ;
+  }
+
+  .Section-1 > .Content > .Detail > .Button > #Register {
+    font-weight: 800;
+    font-size: 15px;
+  }
+  
+  .Section-1 > .Content > .Illustration {
+    width: 30vw;
+    height: 30vw;
+  
+    margin-left: auto;
+    margin-right: 95px;
+  }
+
+  /*===== Section 2 =====*/
+  .Section-2 {
+    height: fit-content;
+    width: 100%;
+  
+    background-color: #353535;
+  }
+  
+  .Section-2 > .Content {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .Section-2 > .Content > .Detail {
+    width: fit-content;
+    height: fit-content;
+  
+    margin-top: auto;
+    margin-bottom: auto;
+  
+    margin-left: auto;
+    margin-right: 95px;
+  }
+  
+  .Section-2 > .Content > .Detail > .Desc {
+    width: 40vw;
+  
+    color: white;
+  
+    font-size: 20px;
+  }
+  
+  .Section-2 > .Content > .Illustration {
+    width: 30vw;
+    height: 30vw;
+  
+    margin-left: 95px;
+    margin-right: auto;
+  }
+
+  /*===== Section 2 =====*/
+  .Section-3 {
+    height: fit-content;
+    width: 100%;
+  
+    background-color: #202021;
+  }
+  
+  .Section-3 > .Content {
+    display: flex;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .Section-3 > .Content > .Detail {
+    width: fit-content;
+    height: fit-content;
+  
+    margin-top: auto;
+    margin-bottom: auto;
+  
+    margin-left: 95px;
+    margin-right: auto;
+  }
+  
+  .Section-3 > .Content > .Detail > .Desc {
+    width: 40vw;
+  
+    color: white;
+  
+    font-size: 20px;
+  }
+  
+  .Section-3 > .Content > .Illustration {
+    width: 30vw;
+    height: 30vw;
+  
+    margin-left: auto;
+    margin-right: 95px;
+  }
+}
+
+.Section-1 > .Content > .Detail > .Button:hover {
+  background-color: transparent;
+  color: white;
+}
