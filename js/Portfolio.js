@@ -12,7 +12,7 @@ let data = [
     redirect: "./porto/Learn-HTML-Table/RPL-Main.html"
   },
   {
-    title: "Cibiru Signgage",
+    title: "UPI Cibiru Signgage",
     desc: "An info graphic website that contains data on the number of students per year, number of achievements, faculty achievement targets, and other information. Accessible to users via Signgage. For UPI Cibiru",
     img: "https://raw.githubusercontent.com/Asadaaaaa/Asadaaaaa.github.io/main/assets/Logo.PNG",
     redirect: "https://cibiru-signgage-view.vercel.app/"
