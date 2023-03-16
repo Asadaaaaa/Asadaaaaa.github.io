@@ -40,7 +40,13 @@ let data = [
     desc: "Official Website for Kompetegram (Komunitas Pencinta Teknologi dan Pemrograman).",
     img: "https://github.com/Asadaaaaa/Kompetegram-Website/raw/main/kompetegram.png",
     redirect: "https://kompetegram.com"
-  }
+  },
+  {
+    title: "PageNotFound Template",
+    desc: "This is the page for conditions if the client accesses an unavailable page",
+    img: "https://raw.githubusercontent.com/Asadaaaaa/PageNotFound/main/assets/img/ghost-img.png",
+    redirect: "https://github.com/Asadaaaaa/PageNotFound"
+  },
 ]
 
 export default data;
