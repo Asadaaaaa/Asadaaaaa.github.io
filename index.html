@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <link rel="stylesheet" href="/styles/Phone.css">
   <link rel="stylesheet" href="/styles/Desktop.css">
   <link rel="stylesheet" href="/library/icomoon/style.css">
@@ -20,7 +23,7 @@
   <main>
     <aside>
       <div class="Photo">
-        <img id="img" src="./assets/My-Photo.png" alt="">
+        <img data-aos="zoom-in-up" id="img" src="./assets/My-Photo.png" alt="">
       </div>
 
       <h2 id="name">Mikail Asada</h2>
@@ -64,6 +67,9 @@
   </footer>
 
   <script type="module" src="./js/index.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
