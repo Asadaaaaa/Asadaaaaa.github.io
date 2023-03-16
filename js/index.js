@@ -17,7 +17,7 @@ const subStrDesc = (description) => {
 
 data.forEach((val) => {
   let item = `
-    <a data-aos="fade-up" data-aos-duration="700" class="Container" href="${val.redirect}">
+    <a data-aos="fade-right" data-aos-duration="700" class="Container" href="${val.redirect}">
       <img id="logo" src="${val.img}" alt="">
   
       <div class="Details">
